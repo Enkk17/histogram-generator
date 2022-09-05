@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-dati_citta=pd.read_csv('/home/enk/Scrivania/covid.csv', usecols = ['denominazione_regione','ricoverati_con_sintomi',"terapia_intensiva","deceduti"])
+dati_citta=pd.read_csv('/home/enk/Scrivania/covid.csv', usecols = ['denominazione_regione','ricoverati_con_sintomi',"terapia_intensiva"])
 
 print(dati_citta)
 df=pd.DataFrame(dati_citta,columns=["denominazione_regione","ricoverati_con_sintomi","terapia_intensiva"]
