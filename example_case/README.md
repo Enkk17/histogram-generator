@@ -1,5 +1,5 @@
 # Example Case
-An example of use used by me was a csv file containing infected covid data from Italy divided into regions the result was this and this is code this is the code used by me.
+An example of use used by me was a csv file containing infected covid data from Italy divided into regions the result was this and this is code used by me.
 
 _the csv file was taken from this ![repository](https://github.com/pcm-dpc/COVID-19)_
 
