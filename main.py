@@ -3,13 +3,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #read file csv and take in input specific columns
-dati_citta=pd.read_csv('directory / of / file.csv', usecols = ['denominazione_regione','ricoverati_con_sintomi',"terapia_intensiva","deceduti"])
+data_city=pd.read_csv('directory / of / file.csv', usecols = ['enter_column_name',enter_column_name2])
 
 #check data
-#print(dati_citta)
+#print(data)
 
 #create a table
-df=pd.DataFrame(dati_citta,columns=["denominazione_regione","ricoverati_con_sintomi","terapia_intensiva"]
+df=pd.DataFrame(data,columns=["enter_column_name",enter_column_name2"]
 )
-df.plot(x="denominazione_regione",y=["ricoverati_con_sintomi","terapia_intensiva"],kind="bar",figsize=(9,8))
+df.plot(x="Name_under_bar",y=["enter_column_name","enter_column_name2"],kind="bar",figsize=(9,8))
 plt.show()
