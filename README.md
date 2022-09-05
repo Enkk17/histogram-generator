@@ -13,4 +13,6 @@ After you have made sure that all the necessary libraries are installed, downloa
 ***LINUX***
 > python3 /home/main.py
 
+If you don't know how to change the code you can see an ![example case](https://github.com/Enkk17/histogram-generator/tree/main/example_case) tested by me so you can orient yourself and see the graph
+
 
