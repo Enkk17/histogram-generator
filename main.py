@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 #read file csv and take in input specific columns
-data_city=pd.read_csv('directory / of / file.csv', usecols = ['enter_column_name',enter_column_name2])
+data=pd.read_csv('directory / of / file.csv', usecols = ['enter_column_name',enter_column_name2])
 
 #check data
 #print(data)
